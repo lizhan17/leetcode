@@ -1,0 +1,5 @@
+
+
+
+def getBit(num):
+    
