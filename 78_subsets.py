@@ -6,7 +6,7 @@ state: done,in 2 hours
 rank: beat 33%
 
 general python tech:
-short circuit in if statement 
+short circuit
 
 python list tech:
 to iterate all the elements in a list:
