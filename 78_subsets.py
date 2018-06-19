@@ -6,7 +6,11 @@ short circuit in if statement
 
 
 list type tech:
-to iterate all the elements in 
+to iterate all the elements in a list
+
+
+for idx in range(0,len(list)):
+    
 
 
 “”“
