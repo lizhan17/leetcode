@@ -3,13 +3,13 @@
 
 
 Date:2018/06/19
-Not finished.
+failed
 
 use datatype of dict to remember the pieces
 with extra space 
 
-why I use dict:
-more than once: i need to track the times of subarray and the same time 
+why use dict:
+more than once: we need to track the times of subarray and the same time 
 I need to return the substring.
 
 
