@@ -1,0 +1,42 @@
+"""
+
+use datatype of dict to remember the pieces
+with extra space 
+
+why I use dict:
+more than once: i need to track the times of subarray and the same time 
+I need to return the substring.
+
+
+
+
+"""
+
+
+
+
+class Solution(object):
+    def findRepeatedDnaSequences(self, s):
+        """
+        :type s: str
+        :rtype: List[str]
+        """
+        # tmp get a 10-letter string 
+        # tmp str except the original str
+        
+        # from 
+        result = []
+        DNA_dict = {}
+        
+ 
+        
+        for head_idx in range (0,len(s)-9):
+            cur_piece = s[head_idx:head_idx+10]
+            if (cur_piece not in DNA_dict):
+                DNA_dict[cur_piece]=1  # add current piece to DNA dict
+            else:
+                # already in DNa dict
+                DNA_dict[cur_piece]+=1 # python dict value add one
+        return [piece for piece in DNA_dict if DNA_dict[piece]>1]
+            
+     
