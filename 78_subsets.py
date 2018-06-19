@@ -1,3 +1,18 @@
+
+“”“
+general tech:
+short circuit in if statement 
+
+
+
+list type tech:
+to iterate all the elements in 
+
+
+“”“
+
+
+
 class Solution(object):
     def subsets(self, nums):
         """
