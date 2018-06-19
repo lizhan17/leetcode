@@ -1,13 +1,15 @@
 
 “”“
+
+
+
 general python tech:
 short circuit in if statement 
 
 python list tech:
 to iterate all the elements in a list:
      for idx in range(0,len(list)):
-            
-            
+          
 bit manipulation tech:
     def getbit(num):
         res = []
