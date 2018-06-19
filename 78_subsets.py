@@ -1,7 +1,9 @@
 
 “”“
 
-
+date: 2018/06/18
+state: done,in 2 hours
+rank: beat 33%
 
 general python tech:
 short circuit in if statement 
