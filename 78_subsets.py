@@ -1,18 +1,21 @@
 
 “”“
-general tech:
+general python tech:
 short circuit in if statement 
 
-
-
-list type tech:
-to iterate all the elements in a list
-
-
-for idx in range(0,len(list)):
+python list tech:
+to iterate all the elements in a list:
+     for idx in range(0,len(list)):
+            
+            
+bit manipulation tech:
+    def getbit(num):
+        res = []
+        while(num>0):
+            tmp = num%2
+            res.append(tmp)
+            num = int((num-tmp)/2)
     
-
-
 “”“
 
 
