@@ -51,5 +51,19 @@ class Solution(object):
             ret |= (m>>i&1)<<i 
             # give ret the bit of m
         return ret
- # ref https://leetcode.com/problems/bitwise-and-of-numbers-range/discuss/56780/Short-1-liners-in-Python-with-explanation
+#  200ms
 
+#ref https://leetcode.com/problems/bitwise-and-of-numbers-range/discuss/56780/Short-1-liners-in-Python-with-explanation
+
+
+
+
+if m == 0:
+            return 0
+        res = 1
+        while m != n:
+            m >>= 1
+            n >>= 1
+            res <<= 1
+        return m * res
+#ref: leetcode just 100ms
