@@ -1,0 +1,43 @@
+"""
+date:2018/06/19
+
+
+general python trick:
+use set() to get the unique list
+
+get the sum of list:
+use build in functions (quickly)
+or
+use iterations
+
+
+
+
+
+
+
+
+
+"""
+
+
+
+
+
+class Solution(object):
+    def singleNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        # outer loop for each
+        set_list = set(nums)
+
+        sum_set = sum(set_list)
+        sum_list = sum(nums)
+        
+        # for ele in set_list:
+            # sum_set = sum_set + ele 
+        # for ele in nums:     # just for speed i use sum
+            # sum_list = sum_list + ele
+        return int ((sum_set*3 - sum_list)/2)
