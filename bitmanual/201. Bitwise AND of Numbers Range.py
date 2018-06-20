@@ -34,6 +34,11 @@ x|=y
 m>>i&1
 
 just get the ith bit 
+
+
+|= 1 << i
+
+add the ith bit to a 000000010000 number
 """
 class Solution(object):
     def rangeBitwiseAnd(self, m, n):
