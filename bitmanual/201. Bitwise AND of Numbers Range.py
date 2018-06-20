@@ -30,6 +30,10 @@ equals
 x|=y
 
 
+
+m>>i&1
+
+just get the ith bit 
 """
 class Solution(object):
     def rangeBitwiseAnd(self, m, n):
@@ -39,7 +43,7 @@ class Solution(object):
             if m>>i != n>>i:  # if m's i bit not same with n's i bit
               
                 break    # break  why: because they are not same otherwise keep m's i bit
-            ret |= (m>>i&1)<<i
+            ret |= (m>>i&1)<<i 
             # give ret the bit of m
         return ret
  # ref https://leetcode.com/problems/bitwise-and-of-numbers-range/discuss/56780/Short-1-liners-in-Python-with-explanation
