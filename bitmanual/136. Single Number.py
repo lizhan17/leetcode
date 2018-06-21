@@ -1,26 +1,20 @@
 """
 important trick 
 
-with dictionary in python
 
+sol1:
+with dict
+5%
+sol2:
+with set and sum 
+10%
 
-more quick way 
-
-
-get the sum of set (why we use set):
-we just know they are 2 and 1 is 1
-
-
-
-
-
-
-
+sol3:
 
 """
 
 
-## my solution beat only 3%
+## my solution beat only 5%
 ## use dictions as datastructure
 class Solution(object):
     def singleNumber(self, nums):
