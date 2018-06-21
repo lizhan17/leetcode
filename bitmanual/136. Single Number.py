@@ -23,7 +23,17 @@ failed very slow
 we can't use pop because pop is O(k) average
 pop last is constant time
 sol4:
-two list(stack)
+Bitwise XOR
+
+        res = 0
+        for ele in nums:
+            res ^= ele
+        return res
+
+
+
+
+
 
 """
 
@@ -66,3 +76,12 @@ class Solution(object):
         for num in nums:
             sum_nums += num
         return 2*sum_set - sum_nums
+
+    
+    
+    ### 
+        res = 0
+        for ele in nums:
+            res ^= ele
+        return res
+    # source leetcode
