@@ -1,6 +1,13 @@
 linedlist
 https://ocw.mit.edu/courses/civil-and-environmental-engineering/1-00-introduction-to-computers-and-engineering-problem-solving-spring-2012/recitations/MIT1_00S12_REC_12.pdf
 
+
+
+What in practice:
+- Database: use linked list to solve hashtable collision
+
+
+
 BIG Pros:
 
 - A Linked List can grow dynamically.
