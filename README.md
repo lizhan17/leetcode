@@ -1,3 +1,3 @@
-# leetcode
-# fight for the career
-# 300 problems 
+目标 goal 250
+
+already done 15
