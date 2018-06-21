@@ -1,4 +1,8 @@
 """
+linear time complexity
+so  you can have stack 
+
+
 important trick 
 
 
