@@ -14,6 +14,16 @@ with set and sum
 10%
 
 sol3:
+python list built in functions
+
+-- count
+failed very slow 
+
+-- pop 
+we can't use pop because pop is O(k) average
+
+sol4:
+two list(stack)
 
 """
 
