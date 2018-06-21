@@ -79,9 +79,9 @@ class Solution(object):
 
     
     
-    ### 
+    ### exclusive OR
         res = 0
         for ele in nums:
-            res ^= ele
+            res = res^ ele
         return res
     # source leetcode
