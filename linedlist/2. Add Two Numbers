@@ -1,8 +1,8 @@
 
 """
-failed.
+failed. ref: leetcode
 
-date: Jun21
+
 
 
 - python built in function
@@ -17,9 +17,28 @@ while 1 or 0
 True is not a keyword in python2 it evalues to 1
 
 
+- data structure
+a listnode as a input.
+class Solution(object):
+    def addTwoNumbers(self, l1, l2):
+        """
+        :type l1: ListNode
+        :type l2: ListNode
+        :rtype: ListNode
+        """
+ 
+each time it gives us a ListNode.
+then we return a ListNode not a linked list totally.
+In chinese 这题目输入是node 不是整个 linked list 。而且linked list的特点就是dynamic 可以增长。
+而且我们不知道数字的长度就是linked list的长度
+we don't know the size of the singly linked list. we can only use the node
+
 """
 
 # class ListNode(object):
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
+
+
+
