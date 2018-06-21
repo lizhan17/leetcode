@@ -1,1 +1,19 @@
 
+"""
+failed.
+
+date: Jun21
+
+
+- python built in function
+divmod(x,y)
+get the 
+
+
+
+"""
+
+# class ListNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
