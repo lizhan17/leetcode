@@ -21,7 +21,7 @@ failed very slow
 
 -- pop 
 we can't use pop because pop is O(k) average
-
+pop last is constant time
 sol4:
 two list(stack)
 
