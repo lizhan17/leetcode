@@ -4,7 +4,6 @@ https://ocw.mit.edu/courses/civil-and-environmental-engineering/1-00-introductio
 BIG Pros:
 
 A Linked List can grow dynamically.
-
 (To resize an array you have to create a new, larger array, and copy everything over)
 
 A linked list does NOT need contiguous memory.
