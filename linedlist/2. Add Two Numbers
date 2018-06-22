@@ -2,12 +2,20 @@
 """
 failed. ref: leetcode
 
+-conclusion
+this problem shows how to do a add function linked list
+
+we need to keep the carry and stop when linked list point to end(None)
 -python
 None means init. 
 a=11
 a= None
 print(a) : None
 
+- python
+python pairwise
+a,b = (c,d)
+a,b,c = [1,2,3]
 
 
 - python
@@ -17,7 +25,6 @@ get the  in pair(quotient,remainder)
 - python 
 
 while 1 or 0
-
 True is not a keyword in python2 it evalues to 1
 
 
@@ -37,6 +44,7 @@ In chinese 这题目输入是node 不是整个 linked list 。而且linked list�
 而且我们不知道数字的长度就是linked list的长度
 we don't know the size of the singly linked list. we can only use the node
 
+
 """
 
 # class ListNode(object):
@@ -44,5 +52,21 @@ we don't know the size of the singly linked list. we can only use the node
 #         self.val = x
 #         self.next = None
 
+def addTwoNumbers(self, l1, l2):
+    carry = 0  ## in Chinese 进位
+    root = n = ListNode(0)
+    
+    while l1 or l2 or carry:  # from the input node to the last node       # stop when all is empty
+        v1 = v2 = 0    # v1 and v2 are the temporate variable to store the things to add 
+        if l1:   # if l1 is not empty,we just retrive value of node and set l1 to the next node
+            v1 = l1.val
+            l1 = l1.next
+        if l2:
+            v2 = l2.val
+            l2 = l2.next
+        carry, val = divmod(v1+v2+carry, 10)
+        n.next = ListNode(val)
+        n = n.next
+    return root.next
 
 
