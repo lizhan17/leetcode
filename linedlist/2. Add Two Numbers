@@ -2,6 +2,11 @@
 """
 failed. ref: leetcode
 
+-python
+None means init. 
+a=11
+a= None
+print(a) : None
 
 
 
