@@ -65,8 +65,8 @@ def addTwoNumbers(self, l1, l2):
             v2 = l2.val
             l2 = l2.next
         carry, val = divmod(v1+v2+carry, 10)
-        n.next = ListNode(val)
-        n = n.next
-    return root.next  # from the root 0 
+        n.next = ListNode(val)  # n.next point to a result node
+        n = n.next # then n point to n.next this means we are working on the next node
+    return root.next  # from the root 0 we get the entire result
 
 
