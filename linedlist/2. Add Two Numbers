@@ -45,6 +45,16 @@ In chinese 这题目输入是node 不是整个 linked list 。而且linked list�
 we don't know the size of the singly linked list. we can only use the node
 
 
+
+
+while 
+
+
+
+
+   n.next =   # update the next pointer
+   n= n.next #  n point to n.next(the vallue we got) 
+   then next then next
 """
 
 # class ListNode(object):
