@@ -8,7 +8,7 @@ tags:
 bit operation:
 
 
-#Data structure
+Data structure
 
 linked list:
 
