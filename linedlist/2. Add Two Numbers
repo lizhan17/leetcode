@@ -5,11 +5,11 @@ failed. ref: leetcode
 
 
 
-- python built in function
+- python
 divmod(x,y)
 get the  in pair(quotient,remainder)
 
-- python while 
+- python 
 
 while 1 or 0
 
