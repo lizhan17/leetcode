@@ -47,7 +47,7 @@ we don't know the size of the singly linked list. we can only use the node
 
 
 
-while 
+while (None) # we can use None as the condition
 
 
 
