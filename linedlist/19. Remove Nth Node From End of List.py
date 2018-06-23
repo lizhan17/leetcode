@@ -1,3 +1,32 @@
+"""
+## tricks 
+1 use list to finish it
+2 linked list special way to construct 
+
+
+
+
+singly linked to python list:
+
+while head:
+    help_list.append(head.val)
+    head =head.next
+
+
+        root=q=ListNode(0)
+        for ele in list_tonode:
+            q.next = ListNode(ele)
+            q = q.next
+        return root.next
+        
+        
+        
+"""
+
+
+
+
+
 class Solution(object):
     def removeNthFromEnd(self, head, n):
         """
@@ -43,3 +72,26 @@ class Solution(object):
             
         # lets return the next code 
         return root.next
+
+    
+    
+### my another sol
+### covert it to python list and recover from it
+
+
+
+class Solution(object):
+    def removeNthFromEnd(self, head, n):
+        help_list= []
+        while head:
+            help_list.append(head.val)
+            head =head.next
+        # edge case it is an empty node we have a 1 element 
+        list_tonode = help_list[:-n]+help_list[len(help_list)-n+1:]
+        root = q = ListNode(0)
+        for ele in list_tonode:
+            q.next = ListNode(ele)
+            q = q.next
+        return root.next
+        
+        
