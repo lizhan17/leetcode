@@ -99,3 +99,7 @@ class Solution(object):
         return root.next
 
         
+    ### solutions from leetcode
+    ### https://leetcode.com/problems/remove-nth-node-from-end-of-list/discuss/8802/3-short-Python-solutions
+    
+    
