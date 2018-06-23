@@ -83,15 +83,19 @@ class Solution(object):
 class Solution(object):
     def removeNthFromEnd(self, head, n):
         help_list= []
+        ## from linked list to python list
         while head:
             help_list.append(head.val)
             head =head.next
-        # edge case it is an empty node we have a 1 element 
+        
+        ## get what we need in python list
         list_tonode = help_list[:-n]+help_list[len(help_list)-n+1:]
         root = q = ListNode(0)
+        
+        ## from python list to linked list
         for ele in list_tonode:
             q.next = ListNode(ele)
             q = q.next
         return root.next
-        
+
         
