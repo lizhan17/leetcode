@@ -6,7 +6,9 @@ to add the end of list to
             q.next = l2
            
      
-
+-- python 
+if a is None:
+ use is to judge
 
 
 
