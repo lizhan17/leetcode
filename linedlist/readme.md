@@ -20,15 +20,18 @@ BIG Pros:
 some special tricks:
 reverse a k linked list
 
+we use prev and next to store the prev pointer and next pointer
+look out the order of these ponter
+
 
 ```python
 def reverse(self):
-        prev = None
-        current = self.head
+        prev = None  # prev is none 
+        current = self.head # cur is the head 
         while(current is not None):
-            next = current.next
-            current.next = prev
-            prev = current
-            current = next
+            next = current.next  # we got the next pointer first
+            current.next = prev # we change the curent to prev pointer
+            prev = current  # we change the prev to curent
+            current = next # we change the current to next
         self.head = prev
 ```
