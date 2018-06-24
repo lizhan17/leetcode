@@ -35,3 +35,14 @@ def reverse(self):
             current = next # we change the current to next
         self.head = prev
 ```
+another way is switch the head each time iteration
+```python
+reverse list inline(use swap )
+swap(1,2)  2 1 3 4 5
+swap(2,3)  3 2 1 4 5
+
+
+https://blog.csdn.net/u012848330/article/details/51570232
+
+
+```
