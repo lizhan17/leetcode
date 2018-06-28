@@ -46,3 +46,21 @@ https://blog.csdn.net/u012848330/article/details/51570232
 
 
 ```
+
+
+
+有些指针 用法
+root = ListNode(0)
+root.next = prev = head
+
+root 给prev 一个初始值
+还可以固定这个linkedlist 最后得到整个list
+
+而prev cur next的操作 要考虑到next cur 会不会是none 
+
+这和base case有关 也和while 里用的传递方法有关
+一般要有next.next 一定会出现next is none 的问题
+所以用短路
+while(next and next.next)
+
+while(cur)
