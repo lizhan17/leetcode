@@ -67,3 +67,6 @@ while(cur)
 
 不像for loop 于list.
 linkedlist不知道数量 所以 不能用for loop进行遍历
+
+
+注意！指针之间修改顺序会导致 
