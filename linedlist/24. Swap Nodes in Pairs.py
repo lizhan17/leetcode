@@ -58,6 +58,6 @@ class Solution(object):
         else: # next.next is none
             prev.next = next
             next.next = cur
-            cur.next = None
+            cur.next = None  # if not set cur.next Time Limit Exceeded
             return root.next
         
