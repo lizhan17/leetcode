@@ -64,3 +64,6 @@ root 给prev 一个初始值
 while(next and next.next)
 
 while(cur)
+
+不像for loop 于list.
+linkedlist不知道数量 所以 不能用for loop进行遍历
