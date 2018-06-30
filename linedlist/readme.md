@@ -79,7 +79,15 @@ linkedlist不知道数量 所以 不能用for loop进行遍历
 
 注意！指针之间修改顺序会导致 
 
-
+ Because in Python, every value is a reference, you can say a pointer, to an object. Objects cannot be values. Assignment always copies the value; two such pointers point to the same object. Hope that helps.
+ 
+ 
+ ```python
+ curr = head
+ 
+ return head
+ 
+ ```
 
 第82题 用的指针 cur而非
 第82题 用的指针
