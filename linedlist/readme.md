@@ -97,7 +97,7 @@ We keep track of value of the last unique node and two pointers: pointer to the 
 
 # prev pointer 操作
 prev.next = curr.next
-we didn't change the prev ,we acutually look at the next curr node.
+we didn't change the prev ,we acutually look at the next curr node. we ignore the curr node now, we need to keep a last_unique value
 
 
 prev = curr
