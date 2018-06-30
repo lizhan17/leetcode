@@ -90,7 +90,7 @@ linkedlist不知道数量 所以 不能用for loop进行遍历
  ```
 
 
--- 第83题 基础讲解 碰上 需要 unique linked list
+# 第83题 基础讲解 碰上 unique linked list
 
 We traverse linked list. 
 We keep track of value of the last unique node and two pointers: pointer to the previous node and pointer to the current node.
