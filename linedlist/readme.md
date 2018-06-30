@@ -95,4 +95,12 @@ linkedlist不知道数量 所以 不能用for loop进行遍历
 We traverse linked list. 
 We keep track of value of the last unique node and two pointers: pointer to the previous node and pointer to the current node.
 
+# prev pointer 操作
+prev.next = curr.next
+we didn't change the prev ,we acutually look at the next curr node.
 
+
+prev = curr
+
+we accually add the curr node to the result linked list
+# 
