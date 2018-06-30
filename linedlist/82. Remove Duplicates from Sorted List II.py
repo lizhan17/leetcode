@@ -20,9 +20,10 @@ class Solution(object):
 ## I use head as the cur 
 ## I should use c
 """
- dummy = ListNode(-1)
+        dummy = ListNode(-1)
         dummy.next = head
         prev, curr = dummy, dummy.next
+        while curr :
 
 """
 
