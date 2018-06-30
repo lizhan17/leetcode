@@ -21,8 +21,10 @@ some special tricks:
 reverse a k linked list
 
 we use prev and next to store the prev pointer and next pointer
-look out the order of these ponter
+so that we can break the list and maintain the original order
 
+
+![Alt Text](https://www.geeksforgeeks.org/wp-content/uploads/RGIF2.gif)
 
 ```python
 def reverse(self):
