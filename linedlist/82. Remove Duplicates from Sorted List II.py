@@ -16,7 +16,16 @@ class Solution(object):
         ## if we found the head.next val = head.val just find another head
         ## else we found the unique node add to the output
 
-        
+ ## why I am wrong
+## I use head as the cur 
+## I should use c
+"""
+ dummy = ListNode(-1)
+        dummy.next = head
+        prev, curr = dummy, dummy.next
+
+"""
+
         
  ## sol from others with my analyis
 ## ref  https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/discuss/28398/clean-python-solution-involving-dummy-node
