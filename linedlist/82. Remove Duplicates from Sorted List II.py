@@ -54,3 +54,56 @@ class Solution(object):
                 prev, curr = curr, curr.next
                 
         return dummy.next
+    
+    
+    
+    
+    
+    # my wrong anser
+    class Solution(object):
+    def deleteDuplicates(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        
+        ## sol thought
+        
+        ## we need to work on the linked list itself
+        ## step through the node
+        ## if we found the head.next val = head.val just go to another head
+        ## else we found the unique node add to the output
+        ## use prev and cur and 
+        
+        cur= root = ListNode(0)
+        
+        cur.next = head
+        tmp = 0
+        
+        ## i d better change the linked list inline
+        
+        if (head.next is None):
+            return root.next
+
+        while(head and head.next):
+            
+            ## edge case head
+            if(head.next is not None and head.val != head.next.val):
+                cur.next = head
+                head = head.next
+                cur = cur.next
+                
+            elif head.next is None and head.val != cur.val:
+                cur.next = head
+                
+                return root.next
+                
+            else: #(head.next is not None and head.val ==head.next.val): # head.val = head.next val
+                tmp = head.val
+                while (head and tmp == head.val):
+                    head = head.next
+                if (head.next is None and head.val != tmp):
+                    cur.next = head
+                    return root.next
+                if (head is None):
+                    return root.next
