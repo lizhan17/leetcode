@@ -105,9 +105,11 @@ we didn't change the prev ,we acutually look at the next curr node. we ignore th
 prev = curr
 
 we accually add the curr node to the result linked list
-# 92. Reverse Linked List II 
+# 92. Reverse Linked List II  连接 剪断 
+0 剪短linked list 需要 set  node.next = None 防止出现死链
 1 运用 reverse linked list
 2 定义几个基础function
 3 python function is firstclass function, we can define function inside a function
 4 object function or member function must be passed by instance , which is a global variable , have side effets.
   a.foo() a.call()
+5 注意特殊情况 input 3->5 1 2 output 5->3  这里我的 是 findNode(0)返回 prev node(dummynode)
