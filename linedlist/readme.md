@@ -49,6 +49,14 @@ https://blog.csdn.net/u012848330/article/details/51570232
 
 
 
+```python
+        dummy = ListNode(-1)
+        dummy.next = head
+        prev, curr = dummy, dummy.next
+        while curr :
+```
+
+
 有些指针 用法
 root = ListNode(0)
 root.next = prev = head
