@@ -34,6 +34,8 @@ modify the
 interleave with   seperate into ...
 
 
+be ..dec node  itself
+
 # 句子
 this is taking linear space in addtion 
 
