@@ -40,3 +40,7 @@ this is taking linear space in addtion
 we can come up with a new alogrithm that are going to take constant space in addition.
 
 the way we can do even better is by ....
+
+## 经验
+time and space can't be safed at the same time.
+either running time friendly or space resource friendly
