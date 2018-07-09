@@ -113,3 +113,16 @@ we accually add the curr node to the result linked list
 4 object function or member function must be passed by instance , which is a global variable , have side effets.
   a.foo() a.call()
 5 注意特殊情况 input 3->5 1 2 output 5->3  这里我的 是 findNode(0)返回 prev node(dummynode)
+
+
+## 142 linked list cirular
+0
+1
+2
+3
+
+ref:https://www.geeksforgeeks.org/circular-linked-list/
+** about special features of circular linked list
+0
+1
+2
