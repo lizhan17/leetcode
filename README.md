@@ -1,14 +1,12 @@
-目标 goal 250
-
-already done 15
+array，string，tree，linkedlist，math，
 
 
-tags:
+array
 
-bit operation:
+string
 
+tree 
 
-Data structure
+linkedlist
 
-linked list:
-
+math
