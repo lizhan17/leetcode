@@ -1,4 +1,4 @@
-array，string，tree，linkedlist，math，
+
 
 
 array
@@ -7,6 +7,6 @@ string
 
 tree 
 
-linkedlist
+linkedlist  11/39 https://leetcode.com/tag/linked-list/
 
 math
