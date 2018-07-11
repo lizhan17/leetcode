@@ -57,8 +57,8 @@ class Solution(object):
             cur = cur.next
         #end while we didn't find such a special node
         return None
-       
-     ## leetcode solution
+ 
+## leetcode solution https://leetcode.com/problems/linked-list-cycle-ii/solution/
      class Solution(object):
     def getIntersect(self, head):
         tortoise = head
