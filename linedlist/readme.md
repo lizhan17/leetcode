@@ -153,3 +153,15 @@ while slow:
     temp = slow
     slow = nxt
 ```
+
+```python
+
+prev = None
+while(cur):
+    next = cur.next
+    cur.next = prev
+    prev = cur
+    cur = next
+    
+
+```
