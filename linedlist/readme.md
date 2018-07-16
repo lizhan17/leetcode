@@ -127,6 +127,8 @@ ref:https://www.geeksforgeeks.org/circular-linked-list/
 1
 2
 ## 143 reorder list. split linked list
+ref:
+https://leetcode.com/problems/reorder-list/discuss/143710/My-python-solution-with-some-comments.-O(1)-space-(easy-to-understand)
 我们用两个指针来分割list。一个步长是；另一个的两倍。
 同时用一个prev来 分割这个linked list
 
@@ -138,5 +140,12 @@ if head and head.next and head.next.next:
     while (fast and fast.next):
         pre ,slow, fast = slow, slow.next, fast.next.next
     pre.next = None
-# https://leetcode.com/problems/reorder-list/discuss/143710/My-python-solution-with-some-comments.-O(1)-space-(easy-to-understand)
+
+```
+第二步 我们调转这个链表。
+```python
+
+
+
+
 ```
