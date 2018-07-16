@@ -144,11 +144,12 @@ if head and head.next and head.next.next:
 ```
 第二步 我们调转这个链表。
 已经有了两个pointer 我们可以直接用iterative方法。
-理解很好理解 直接捋一遍。从头到尾。
+理解很好理解 直接捋一遍。从头到尾。要想实现 我们需要一个额外到next pointer 。这样可以追踪它。
 
 ```python
-
-
-
-
+while slow:
+    nxt = slow.next
+    slow.next = temp
+    temp = slow
+    slow = nxt
 ```
