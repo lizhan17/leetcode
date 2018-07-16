@@ -143,6 +143,7 @@ if head and head.next and head.next.next:
 
 ```
 第二步 我们调转这个链表。
+已经有了两个pointer 我们可以直接用iterative方法。
 ```python
 
 
