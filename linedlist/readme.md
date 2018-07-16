@@ -131,7 +131,7 @@ ref:https://www.geeksforgeeks.org/circular-linked-list/
 同时用一个prev来 分割这个linked list
 
 prev.next = None
-'''python
+```python
 
 if head and head.next and head.next.next:
     pre, slow , fast = ListNode(0), head , head
@@ -139,4 +139,4 @@ if head and head.next and head.next.next:
         pre ,slow, fast = slow, slow.next, fast.next.next
     pre.next = None
 # https://leetcode.com/problems/reorder-list/discuss/143710/My-python-solution-with-some-comments.-O(1)-space-(easy-to-understand)
-'''
+```
