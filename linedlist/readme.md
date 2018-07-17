@@ -172,3 +172,7 @@ insertion in linked list
 如何过insert a node in linked list
 我们要一个tmp pinter
 要个 prev and next pointer来记录位置
+
+
+有的时候教条不可行。bug就出现在你认为最不可能出现bug之处。
+比如这里不需要每次移动cur.我们每次移动的是cur.next
