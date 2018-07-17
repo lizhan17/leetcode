@@ -1,3 +1,8 @@
+
+we can use drawing box to denote the linked list
+
+
+
 linedlist
 https://ocw.mit.edu/courses/civil-and-environmental-engineering/1-00-introduction-to-computers-and-engineering-problem-solving-spring-2012/recitations/MIT1_00S12_REC_12.pdf
 
