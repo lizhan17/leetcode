@@ -165,3 +165,10 @@ while(cur):
     
 
 ```
+### insertion sort
+这个问题就是
+insertion in linked list
++ sort 问题。
+如何过insert a node in linked list
+我们要一个tmp pinter
+要个 prev and next pointer来记录位置
