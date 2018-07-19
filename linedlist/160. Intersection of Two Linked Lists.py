@@ -9,7 +9,6 @@ we traverse through the linked list then if one pointe hit the end jump to the o
 in that way. the two pointer must meet at the same position.
 
 
-
 """
 
 
