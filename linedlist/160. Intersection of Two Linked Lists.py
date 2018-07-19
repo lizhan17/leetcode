@@ -1,3 +1,20 @@
+"""
+from leetcode
+
+very smart solution.
+we have two pointers at the beginning of each linked list.
+
+
+we traverse through the linked list then if one pointe hit the end jump to the other linked list's head, else just go on.
+in that way. the two pointer must meet at the same position.
+
+
+
+"""
+
+
+
+
 class Solution:
     # @param two ListNodes
     # @return the intersected ListNode
@@ -20,3 +37,4 @@ class Solution:
 # On the second traversal, they either hit or miss. 
 # if they meet, pa or pb would be the node we are looking for, 
 # if they didn't meet, they will hit the end at the same iteration, pa == pb == None, return either one of them is the same,None
+
