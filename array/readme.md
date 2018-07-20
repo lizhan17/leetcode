@@ -12,7 +12,6 @@ mapping
 
 pass
 # 15. 3Sum
-最基础的： 暴力法 三个巡回O(n)^3 
-一般人的： 排序然后 求两个相加等于一个我们需要的
+接上个 2sum。此时mapping法不好用。我们不知道哪三个。而mapping法 是很确定的。所以用sort 后寻找法 减少重复暴力
 
 https://blog.csdn.net/haolexiao/article/details/70768526
