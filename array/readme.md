@@ -1,3 +1,12 @@
+# General 
+1 remove duplicate  nums[i]== nums[i-1]
+2
+3
+
+
+
+
+
 # 1. 2sum
 
 mapping法。
