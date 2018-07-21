@@ -1,5 +1,9 @@
-# General 
-1 remove duplicate  nums[i]== nums[i-1]
+
+1 remove duplicate in python array
+```python
+if i>0 and nums[i]== nums[i-1]:
+
+```
 2
 3
 
