@@ -1,0 +1,51 @@
+# ref 
+
+class Solution(object):
+    def inorderTraversal(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        
+        
+        stack = [(,)]
+        
+        
+        
+class Solution:
+    # @param {TreeNode} root
+    # @return {integer[]}
+    def inorderTraversal(self, root):
+        result, stack = [], [(root, False)]
+
+        while stack:
+            cur, visited = stack.pop()
+            if cur:
+                if visited:
+                    result.append(cur.val)
+                else:
+                    stack.append((cur.right, False))
+                    stack.append((cur, True))
+                    stack.append((cur.left, False))
+
+        return result
+        
+        
+ # leetcode solution2 
+def inorderTraversal(self, root):
+    res, stack = [], []
+    while True:
+        while root:
+            stack.append(root)
+            root = root.left
+        if not stack:
+            return res
+        node = stack.pop()
+        res.append(node.val)
+        root = node.right
+        
+        
+   
+ #ref leetcode zhang For recursive solution, you can also put them in one line
+   def inorderTraversal(self, root):
+        return self.inorderTraversal(root.left)+[root.val]+self.inorderTraversal(root.right) if root else []
