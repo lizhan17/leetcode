@@ -13,4 +13,11 @@ inorder can be used on binary trees built from mathematical expressions - the or
 
 
 
-inorder
+# 94. Binary Tree Inorder Traversal
+
+
+recursive way
+``` python
+ def inorderTraversal(self, root):
+        return self.inorderTraversal(root.left)+[root.val]+self.inorderTraversal(root.right) if root else []
+```
