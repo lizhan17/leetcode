@@ -1,0 +1,35 @@
+class Solution(object):
+    def longestCommonPrefix(self, strs):
+        """
+        :type strs: List[str]
+        :rtype: str
+        """ 
+        # loop need all the element
+        # 1 loop need from the first to the last
+        
+        # special case len(strs) is two  
+        
+        res = ""
+        if strs == []:
+            return res
+        if len(strs) == 1 :
+            return strs[0]
+      
+        
+        
+        length= len(strs[0]) # just choose the first element
+        
+        for i in range(0, length): # i is the idx of character in different string
+            for j in range(0,len(strs)-1): # j is the idx for each str in str list
+                
+                # special case:  j is from (0,1) j is just 1 length is two 
+                
+                
+                if  i >= len(strs[j+1]) or strs[j][i] !=strs[j+1][i]:
+                    return res
+            res = res+strs[0][i]
+                
+        return res
+            
+            
+            
