@@ -33,3 +33,6 @@ BFS explores/processes the closest vertices first and then moves outwards away f
 https://stackoverflow.com/questions/3929079/how-can-i-remember-which-data-structures-are-used-by-dfs-and-bfs
 
 https://medium.freecodecamp.org/all-you-need-to-know-about-tree-data-structures-bceacb85490c
+
+# 七种树
+https://www.cnblogs.com/shiguangrenran/p/8143694.html
