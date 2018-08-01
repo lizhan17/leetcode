@@ -1,5 +1,5 @@
 Basically, this question is recursively. Or we can say, the tree structure is recursively, so the recursively solution maybe easy to write:
-
+# ref leetcode
 TC: O(b) SC: O(log n)
 
 class Solution:
