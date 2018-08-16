@@ -31,7 +31,14 @@ class Solution:
 
  
 # my sol beat 83%
-        
+'''
+我从kernel 开始计算 对于回文来说 两种情况
+ -aba-
+-abba-
+
+然后有一个 maxstrength尊从的范围
+maxstrength <= possible length
+'''
 class Solution(object):
     def longestPalindrome(self, s):
         """
