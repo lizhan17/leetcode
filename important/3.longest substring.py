@@ -9,6 +9,10 @@ class Solution:
 
 问题不是用人的方法
 要从电脑的角度看
+
+
+还有一种思路是从例子来
+毕竟现实里 还是从例子开始做问题
 ‘’‘
     # @return an integer
    # ref https://blog.csdn.net/wangyaninglm/article/details/51068831
