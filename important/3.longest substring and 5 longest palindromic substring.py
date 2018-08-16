@@ -105,3 +105,34 @@ class Solution(object):
             else:
                 return res
         return res
+    
+  '''
+  比人的
+  ref leetcode
+  
+  '''
+
+classclass  SolutionSolution(object)(object)::
+         defdef  longestPalindromelongestPalindrome(self, s)(self, s)::
+                 """
+        :type s: str
+        :rtype: str
+        """"""         :type s: st 
+        maxLen = 1
+        maxStartIndex = 0
+        for i in range(len(s)):
+            # abba
+            if i-maxLen >= 0 and self.isPalindrome(s[i-maxLen:i+1]):
+                maxStartIndex = i - maxLen
+                maxLen += 1
+            
+            # aba
+            if i-maxLen-1 >= 0 and self.isPalindrome(s[i-maxLen-1:i+1]):
+                maxStartIndex = i - maxLen - 1
+                maxLen += 2
+
+        return s[maxStartIndex:maxStartIndex+maxLen]
+
+    def isPalindrome(self, s):
+        return s == s[::-1]
+            
