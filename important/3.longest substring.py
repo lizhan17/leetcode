@@ -1,4 +1,11 @@
 class Solution:
+’‘’
+要知道数据结构是固定的
+那么你的思路还是固定的
+
+问题不是用人的方法
+要从电脑的角度看
+‘’‘
     # @return an integer
    # ref https://blog.csdn.net/wangyaninglm/article/details/51068831
     def lengthOfLongestSubstring(self, s):
