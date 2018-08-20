@@ -1,3 +1,11 @@
+'''
+ref leetcode
+
+for x in s is the 
+
+
+'''
+
 class Solution(object):
     def convert(self, s, numRows):
         """
@@ -9,9 +17,9 @@ class Solution(object):
             return s
         L =['']*numRows
         index,step = 0,1
-        for x in s:
-            L[index] += x
-            if index == 0:
+        for x in s:    # typically it is the start
+            L[index] += x # put x in each row index
+            if index == 0: # index may change
                 step =1
             elif index == numRows -1:
                 step =-1
