@@ -1,0 +1,51 @@
+class Solution(object):
+    def myAtoi(self, str):
+        """
+        :type str: str
+        :rtype: int
+        """
+        
+        # get the ord from 0 to 9
+        
+        strNum =['0','1','2','3','4','5','6','7','8','9']
+        as2num = [ ord(x) for x in strNum] 
+        sign = 0
+        reslist = []
+        res = 0
+        
+        for char in str:
+            
+            if ord(char) == ord('-') and sign ==0 and len(reslist)==0:
+                sign = -1
+            elif ord(char) == ord('+') and sign ==0 and len(reslist)==0:
+                sign = 1
+            elif ord(char) == ord('-') and sign ==0 and len(reslist)!=0:
+                break
+            elif ord(char) == ord('+') and sign ==0 and len(reslist)!=0:
+                break            
+            
+            elif ord(char) in as2num:
+                reslist.append(ord(char)-ord('0'))
+            elif ord(char) == ord('-') and sign !=0 :
+                break
+            elif ord(char) == ord('+') and sign !=0 :
+                break
+            elif char is not ' ' and char not in as2num and (ord(char)!= ord('-') or ord(char)!= ord('+')):
+                break
+            elif char is ' ' and len(reslist)>0:
+                break
+            elif char is ' ' and sign !=0:
+                break
+        
+        for num in reslist:
+            res = res*10 + num
+        if sign == -1:
+            res = 0 - res
+        
+        if res > 2**31-1:
+            return 2**31-1
+        if res < -2**31:
+            return -2**31
+        
+        
+        return res
