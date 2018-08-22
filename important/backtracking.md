@@ -13,7 +13,7 @@ backtracking 是非常general 的（也是一种遍历算法）
 
 https://www.cnblogs.com/python27/p/3989435.html
 
-'''C
+```C
 bool Solve(configuration conf)
 {
     if (no more choice)
@@ -32,5 +32,4 @@ bool Solve(configuration conf)
 
     retun false;
 }
-
-'''
+```
